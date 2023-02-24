@@ -20,4 +20,4 @@ def mostrar_post(post_id):
 @app.route('/github')
 
 def saludogithub():
-    return "<p>Esto fue commiteado desde la web de github. Editado</p>"
+    return "<p>Esto fue commiteado desde la web de github. Editadoo</p>"
