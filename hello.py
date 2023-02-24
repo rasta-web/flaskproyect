@@ -16,3 +16,8 @@ def mostrar_usuario(usernamee):
 
 def mostrar_post(post_id):
     return f"<p>Post id: {escape(post_id)}</p>"
+
+@app.route('/github')
+
+def saludogithub():
+    return "<p>Esto fue commiteado desde la web de github</p>"
